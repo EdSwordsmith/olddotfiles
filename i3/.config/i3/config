@@ -19,7 +19,7 @@ font pango:monospace 16
 for_window [class=".*"] border pixel 0
 
 # Background
-exec feh --bg-scale /var/www/tobis.rnl.tecnico.ulisboa.pt/tobis.jpg 
+exec feh --bg-scale /var/www/tobis.rnl.tecnico.ulisboa.pt/html/tobis.jpg 
 
 # Gaps
 gaps inner 2
