@@ -6,7 +6,6 @@ env:
 window:
   # Spread additional padding evenly around the terminal content.
   dynamic_padding: true
-
 # Window decorations
 #
 # Values for `decorations`:
@@ -55,6 +54,8 @@ live_config_reload: true
   #working_directory: None
   # Send ESC (\x1b) before characters when alt is pressed.
   #alt_send_esc: true
+key_bindings:
+  - { key: Return, mods: Command, action: SpawnNewInstance }
 
 colors:
   name: Gotham
