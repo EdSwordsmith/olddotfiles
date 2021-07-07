@@ -1,5 +1,8 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
+import:
+  - ~/.config/macalacritty/alacritty.yml
+
 env:
   TERM: alacritty
 
@@ -55,7 +58,7 @@ live_config_reload: true
   # Send ESC (\x1b) before characters when alt is pressed.
   #alt_send_esc: true
 key_bindings:
-  - { key: Return, mods: Command, action: SpawnNewInstance }
+  - { key: Back, mods: Super, chars: "\x15" }
 
 colors:
   name: Gotham
