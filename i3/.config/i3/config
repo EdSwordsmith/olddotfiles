@@ -20,6 +20,9 @@ for_window [class=".*"] border pixel 0
 
 # Background
 exec --no-startup-id feh --bg-scale /var/www/tobis.rnl.tecnico.ulisboa.pt/html/tobis.jpg 
+# Monitors
+exec --no-startup-id /home/eduardo/.screenlayout/dei.sh
+
 
 # Gaps
 gaps inner 2
