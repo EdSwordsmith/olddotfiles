@@ -1,2 +1,2 @@
-__pycache__
+*.pyc
 alacritty/.config/alacritty/custom.yml
