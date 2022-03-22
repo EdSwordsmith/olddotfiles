@@ -1,0 +1,8 @@
+# launch a new terminal instance when in either 'default' or 'test' mode
+cmd - return : open -na /Applications/MacPorts/Alacritty.app
+
+# focus window
+cmd - h : yabai -m window --focus west
+cmd - j : yabai -m window --focus south
+cmd - k : yabai -m window --focus north
+cmd - l : yabai -m window --focus east
